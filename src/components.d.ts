@@ -11,6 +11,7 @@ declare module 'vue' {
     AppFooter: typeof import('./components/AppFooter.vue')['default']
     MessageList: typeof import('./components/com/MessageList.vue')['default']
     MessageListItem: typeof import('./components/com/MessageListItem.vue')['default']
+    RefreshSerialPortsButton: typeof import('./components/serial-port/RefreshSerialPortsButton.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SerialMonitor: typeof import('./components/SerialMonitor.vue')['default']
