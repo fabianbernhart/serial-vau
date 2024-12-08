@@ -39,7 +39,7 @@ sea-orm = { version = "1.0.1", features = [
     "macros",
 ] }
 sqlite_migration = { path = "src/app/database/database_impl/sqlite_database_service/migration" }
-derive_more = { version = "0.99.18", features = ["from"] }
+derive_more = { version = "1.0.0", features = ["from"] }
 directories = "5.0.1"
 
 [target.'cfg(windows)'.dependencies]
